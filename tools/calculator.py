@@ -52,5 +52,4 @@ Button(calculator, width=5, text='.', command=lambda: add('.')).grid(row=5, colu
 Button(calculator, width=5, text='=', command=calculation).grid(row=5, column=3)
 
 
-
 calculator.mainloop()
